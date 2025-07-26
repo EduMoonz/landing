@@ -2,8 +2,6 @@
 
 Uma landing page responsiva e moderna para um evento fictício de tecnologia. Criado com HTML, CSS e JavaScript puro, com foco em design acessível, boa semântica e validação de formulário.
 
-![Capa do Projeto](img/capa.png) <!-- Substitua ou remova se não tiver imagem -->
-
 ## 📌 Sobre o Projeto
 
 **TechConnect 2025** é um projeto de exemplo de uma landing page para eventos, ideal para freelancers, conferências ou empresas. Desenvolvido com atenção a:
