@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechConnect 2025</title>
+  <meta name="description" content="TechConnect 2025 – A conferência para freelancers e desenvolvedores. Participe do maior evento de tecnologia do ano.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">TechConnect</div>
+      <ul class="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#cronograma">Cronograma</a></li>
+        <li><a href="#palestrantes">Palestrantes</a></li>
+        <li><a href="#local">Local</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Apresentação do evento">
+      <h1>TechConnect 2025</h1>
+      <p>O maior encontro de freelancers e desenvolvedores do Brasil.</p>
+      <a href="#contato" class="btn">Inscreva-se</a>
+    </section>
+
+    <section id="sobre" aria-labelledby="titulo-sobre">
+      <h2 id="titulo-sobre">Sobre o Evento</h2>
+      <p>TechConnect 2025 é uma conferência anual que conecta profissionais de tecnologia com oportunidades, conteúdo relevante e networking de alto nível.</p>
+    </section>
+
+    <section id="cronograma" aria-labelledby="titulo-cronograma">
+      <h2 id="titulo-cronograma">Cronograma</h2>
+      <ul class="cronograma-lista">
+        <li><strong>08:00</strong> – Credenciamento</li>
+        <li><strong>09:00</strong> – Abertura Oficial</li>
+        <li><strong>10:00</strong> – Palestra: "Futuro do Trabalho Remoto"</li>
+        <li><strong>13:00</strong> – Painel: "Freelancing Global"</li>
+        <li><strong>16:00</strong> – Encerramento e Networking</li>
+      </ul>
+    </section>
+
+    <section id="palestrantes" aria-labelledby="titulo-palestrantes">
+      <h2 id="titulo-palestrantes">Palestrantes</h2>
+      <div class="cards-palestrantes">
+        <article class="card">
+          <img src="Imagens/Ana.jpg" alt="Foto da palestrante Ana Silva" />
+          <h3>Ana Silva</h3>
+          <p>Especialista em UX e Empreendedorismo Digital</p>
+        </article>
+        <article class="card">
+          <img src="Imagens/Joao.jpg" alt="Foto do palestrante João Mendes" />
+          <h3>João Mendes</h3>
+          <p>Dev Full Stack e Consultor de Startups</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="local" aria-labelledby="titulo-local">
+      <h2 id="titulo-local">Local do Evento</h2>
+      <p>Centro de Convenções TechHub, São Paulo - SP</p>
+      <div class="mapa">
+        <iframe
+          title="Mapa do evento"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.783158715325!2d-46.65657438502201!3d-23.57792548467237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59d30e0402c9%3A0x53b62c9e3ef30dc0!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1598893233772!5m2!1spt-BR!2sbr"
+          width="100%" height="300" frameborder="0" allowfullscreen=""
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+
+    <section id="contato" aria-labelledby="titulo-contato">
+      <h2 id="titulo-contato">Inscreva-se</h2>
+      <form id="form-inscricao" novalidate>
+        <label for="nome">Nome completo</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem (opcional)</label>
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+        <button type="submit" class="btn">Enviar inscrição</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TechConnect. Todos os direitos reservados.</p>
+    <div class="social">
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
